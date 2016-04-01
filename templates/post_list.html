@@ -12,8 +12,8 @@
 <div class="row">
   <div class="col-sm-12">
     <div class="thumbnail">
-    	{% if obj.image %}
-    	<img src='{{ obj.image.url }}' class='img-responsive' />
+    	{% if obj.image_path %}
+    	<img src='{{ obj.image_path }}' class='img-responsive' />
     	{% endif %}
       <div class="caption">
       	{% if obj.draft %}<h3>Staff Only: Draft</h3>{% endif %}
